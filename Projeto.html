@@ -3,26 +3,33 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">    
 <div style = "background-color :blue ;color:white;padding:20px;text-align: center;font-size:150%;border-style: groove;">	
 <h1 title ="Seja bem vindo ao aplicativo!">Selecione o provedor que deseja:</h1>
+<button type="button" onclick="myFunction()">Click para receber informaçoes!</button>
+<p id="demo1"></p>
+<p id="demo2"></p>
+<script>
+    function myFunction(){
+        document.getElementById("demo1").innerHTML="Bem vindo!!";
+        document.getElementById("demo2").innerHTML = "Abaixo estão os links que te levaram direto ao site com as internet desejada!!";
+        }
+</script>
 </div>
 </head>
 <body>
-
 <div style = "background-color :black;color:white;padding:20px;font-size:100%;text-align: center;border-style: groove;">
-<h2>Links dos provedores de Internets via Satelites:</h2>
+<h2>Links dos provedores de Internet via Satelites: </h2>
 <h3>
     <p><a href="https://www.viasat.com/pt-br/internet-residencial/"><font color=orange>Via sat</a></font></p>
     <p><a href="https://www.hughesnet.com.br/"><font color = orange>HughesNet</a></font></p>
 </h3>
-<h2>Links dos provedores de Internets Fibra óptica:</h2>
+<h2>Links dos provedores de Internet Fibra óptica:</h2>
 <h3>
 <p><a href="https://www.oi.com.br/internet"><font color=orange>Oi fibra</a></font></p>
 <p><a href="https://melhorplano.net/internet-banda-larga/fibra-optica"><font color=orange>MelhorPlano</a></font></p>
 </h3>
-<h2>Links dos provedores de Internets via Cabos:</h2>
+<h2>Links dos provedores de Internet via Cabos:</h2>
 <h3>
 <p><a href="https://planos.minhaconexao.com.br/internet-banda-larga/internet-a-cabo/"><font color = orange>Minha conexão</a></font></p>
 <p><a href="https://www.vivo.com.br/para-voce/produtos-e-servicos/para-casa/internet/planos-de-internet-vivo-fibra/cabo"><font color = orange>Internet vivo</a></font></p>
